@@ -3,7 +3,7 @@ const db = require("../db"); // Ensure this path is correct
 
 var router = express.Router();
 
-const User = db["User"]; // Assuming you have a User model defined in your models/index.js
+const User = db["User"]; // Assumes User model defined in models/index.js
 
 /* GET users listing. */
 router.get("/", function (req, res, next) {
